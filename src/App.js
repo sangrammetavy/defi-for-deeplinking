@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState } from 'react';
 
@@ -11,15 +11,7 @@ function App() {
   const[amount,setamount]=useState(0)
   const[kvdaddress,setkvdaddress]=useState("kvdaddress")
   
-  const handleScan = data => {
-      if (data) {
-        console.log('Result: ', data);
-      }
-    }
-  
-    const handleError = err => {
-      console.error(err);
-    }
+
 
 
   
