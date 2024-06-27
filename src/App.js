@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
-import { QrReader } from 'react-qr-reader';
+
 
 function App() {
   const[value,setvalue]=useState("airdrop.kaanch.com")
@@ -21,16 +21,7 @@ function App() {
       console.error(err);
     }
 
-    const handleclick=()=>{
-      return(
-            <QrReader
-        delay={300}
-        onError={handleError}
-        onScan={handleScan}
-        style={{ width: '100%' }}
-      />
-      )
-    }
+
   
   return (
     <div className="App">
