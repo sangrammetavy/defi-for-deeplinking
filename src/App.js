@@ -151,20 +151,20 @@ function App() {
 
 {/* to open staking */}
 
-<br/><br/>
+// <br/><br/>
 
-<label style={{fontWeight:'bold'}}>To open staking of any particular KVD</label>
-      <br/>  
-<label>Your KVDaddress Goes here</label>
-<br/>
-<input type='text' onChange={(e)=>{setkvdaddress(e.target.value)}}/>
+// <label style={{fontWeight:'bold'}}>To open staking of any particular KVD</label>
+//       <br/>  
+// <label>Your KVDaddress Goes here</label>
+// <br/>
+// <input type='text' onChange={(e)=>{setkvdaddress(e.target.value)}}/>
 
-<br/>
-<a>{`https://app.kaanch.link/staking?kvd_address=${kvdaddress}`}</a>
+// <br/>
+// <a>{`https://app.kaanch.link/staking?kvd_address=${kvdaddress}`}</a>
 
-<br/>
-<a href={`https://app.kaanch.link/staking?kvd_address=${kvdaddress}`} >Open Staking</a>
-<br/>
+// <br/>
+// <a href={`https://app.kaanch.link/staking?kvd_address=${kvdaddress}`} >Open Staking</a>
+// <br/>
 
 {/* for stake  */}
 <br/><br/>
