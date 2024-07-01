@@ -82,9 +82,9 @@ function App() {
 <input type='text' onChange={(e)=>{setcontractaddress(e.target.value)}}/>
 
 <br/>
-<a href={`http://app.kaanch.link/add_asset?asset=${contractaddress}`} >Add Asset</a>
+<a href={`https://app.kaanch.link/add_asset?asset=${contractaddress}`} >Add Asset</a>
 <br/>
- <p>{`http://app.kaanch.link/add_asset?asset=${contractaddress}`}</p>
+ <p>{`https://app.kaanch.link/add_asset?asset=${contractaddress}`}</p>
 
 
 
@@ -110,9 +110,9 @@ function App() {
 
 <br/>
 
-<a href={`http://app.kaanch.link/send_knch?address=${ethaddress}&amount=${amount}`} >Send Payment</a>
+<a href={`https://app.kaanch.link/send_knch?address=${ethaddress}&amount=${amount}`} >Send Payment</a>
 <br/>
- <p>{`http://app.kaanch.link/send_knch?address=${ethaddress}&amount=${amount}`}</p>
+ <p>{`https://app.kaanch.link/send_knch?address=${ethaddress}&amount=${amount}`}</p>
 
 
  <br/>
@@ -142,9 +142,9 @@ function App() {
 
 <br/>
 
-<a href={`http://app.kaanch.link/send_token?asset=${contractaddress}&address=${ethaddress}&amount=${amount}`} >Send Payment</a>
+<a href={`https://app.kaanch.link/send_token?asset=${contractaddress}&address=${ethaddress}&amount=${amount}`} >Send Payment</a>
 <br/>
- <p>{`http://app.kaanch.link/send_token?asset=${contractaddress}&address=${ethaddress}&amount=${amount}`}</p>
+ <p>{`https://app.kaanch.link/send_token?asset=${contractaddress}&address=${ethaddress}&amount=${amount}`}</p>
 
 
  <br/>
@@ -160,10 +160,10 @@ function App() {
 <input type='text' onChange={(e)=>{setkvdaddress(e.target.value)}}/>
 
 <br/>
-<a>{`http://app.kaanch.link/staking?kvd_address=${kvdaddress}`}</a>
+<a>{`https://app.kaanch.link/staking?kvd_address=${kvdaddress}`}</a>
 
 <br/>
-<a href={`http://app.kaanch.link/staking?kvd_address=${kvdaddress}`} >Open Staking</a>
+<a href={`https://app.kaanch.link/staking?kvd_address=${kvdaddress}`} >Open Staking</a>
 <br/>
 
 {/* for stake  */}
@@ -184,10 +184,10 @@ function App() {
 <br/>
 <input type='text' onChange={(e)=>{setamount(e.target.value)}}/>
 <br/>
-<a>{`http://app.kaanch.link/stake_delegate?kvd_address=${kvdaddress}&amount=${amount}`}</a>
+<a>{`https://app.kaanch.link/stake_delegate?kvd_address=${kvdaddress}&amount=${amount}`}</a>
 
 <br/>
-<a href={`http://app.kaanch.link/stake_delegate?kvd_address=${kvdaddress}&amount=${amount}`} >Delegate Now</a>
+<a href={`https://app.kaanch.link/stake_delegate?kvd_address=${kvdaddress}&amount=${amount}`} >Delegate Now</a>
 <br/>
 
 
@@ -202,10 +202,10 @@ function App() {
 <input type='text' onChange={(e)=>{setkvdaddress(e.target.value)}}/>
 
 <br/>
-<a>{`http://app.kaanch.link/stake_undelegate?kvd_address=${kvdaddress}`}</a>
+<a>{`https://app.kaanch.link/stake_undelegate?kvd_address=${kvdaddress}`}</a>
 
 <br/>
-<a href={`http://app.kaanch.link/stake_undelegate?kvd_address=${kvdaddress}`} >Unstake/undelegate now</a>
+<a href={`https://app.kaanch.link/stake_undelegate?kvd_address=${kvdaddress}`} >Unstake/undelegate now</a>
 <br/>
 
 <br/>
@@ -220,10 +220,10 @@ function App() {
 <input type='text' onChange={(e)=>{setkvdaddress(e.target.value)}}/>
 
 <br/>
-<a>{`http://app.kaanch.link/stake_claim_rewards?kvd_address=${kvdaddress}`}</a>
+<a>{`https://app.kaanch.link/stake_claim_rewards?kvd_address=${kvdaddress}`}</a>
 
 <br/>
-<a href={`http://app.kaanch.link/stake_claim_rewards?kvd_address=${kvdaddress}`} >claim your reward now</a>
+<a href={`https://app.kaanch.link/stake_claim_rewards?kvd_address=${kvdaddress}`} >claim your reward now</a>
 <br/>
 
 <br/>
